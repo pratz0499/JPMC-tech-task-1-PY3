@@ -1,0 +1,131 @@
+From 2ca0f8c61d4deaeba8cc497e733d41ef66acb773 Mon Sep 17 00:00:00 2001
+From: Prarthana Shivakumar <prarthanashivakumar04@gmail.com>
+Date: Thu, 28 May 2020 22:07:57 +0530
+Subject: [PATCH] Updated File
+
+---
+ 0001-Update-README-setupv6.patch   |  25 +++++++++++++++++++++++++
+ __pycache__/client3.cpython-37.pyc | Bin 0 -> 1113 bytes
+ client3.py                         |  10 +++++++---
+ client_test.py                     |   5 +++++
+ 4 files changed, 37 insertions(+), 3 deletions(-)
+ create mode 100644 0001-Update-README-setupv6.patch
+ create mode 100644 __pycache__/client3.cpython-37.pyc
+
+diff --git a/0001-Update-README-setupv6.patch b/0001-Update-README-setupv6.patch
+new file mode 100644
+index 0000000..b2ffdbc
+--- /dev/null
++++ b/0001-Update-README-setupv6.patch
+@@ -0,0 +1,25 @@
++From 36143294b216b7210e2ee5948c78725503a5b7ca Mon Sep 17 00:00:00 2001
++From: jbf-insidesherpa <54832297+jbf-insidesherpa@users.noreply.github.com>
++Date: Mon, 25 Nov 2019 09:24:48 +0800
++Subject: [PATCH] Update README (setupv6)
++
++---
++ README.markdown | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/README.markdown b/README.markdown
++index 3390f3c..33da80c 100644
++--- a/README.markdown
+++++ b/README.markdown
++@@ -32,7 +32,7 @@
++ 
++ <h2 id="installation" >Set up / Installation</h2>
++ 
++-<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m1_v5a.pdf">follow the setup here</a></p>
+++<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m1_v6.pdf">follow the setup here</a></p>
++ <p><b>Note:</b>This is the Python 3 version of the JPM 1 exercise. The Python 2.7 version is in <a href="https://github.com/insidesherpa/JPMC-tech-task-1">this other repo</a></p>
++ 
++ <h2>How to Run</h2>
++-- 
++2.26.2.windows.1
++
+diff --git a/__pycache__/client3.cpython-37.pyc b/__pycache__/client3.cpython-37.pyc
+new file mode 100644
+index 0000000000000000000000000000000000000000..6fb90ebc56956f37ae99eaef1ec2a9ef222f0f38
+GIT binary patch
+literal 1113
+zcmYjQOK%%D5GHrItCcM|so!cYY=NK^P(O-X3?Z+^P74&M;Uoxx5=s|qab$12+LcMF
+zh!y#y9{VHYV}C<`K`$-PBd<N>)Jso2bx7GkNz99!9nO3+`=r@iAh`bi?T;URtrPN>
+zGj0~z<S~-|6PYBE7DP}l0}*%`iqK0Ym<&WDLlH|Rqo0VV$ynA<CQz5jS)hJ@`!g)S
+zBE(ZVr3d8oL^L3rHG#fan%#nEb{p7?U6Ct#MQ0y5DVB30R^INxGJ5ZdRj9%0ly;d|
+z6YF9_Y{Dk2z}kHREm?;(SceVR?6Y+;rIegcUb*uHNMJ=Swg~b@i%f&-+rw8_%L~$O
+zzQ?-A;rNqNV}_lboucYx#c8EYXK#0JcjtTr>f%u@AH2KF|DlBRko<~}Go*ba{TSH<
+z<F&{oHBJj!M27epy$rm~KG@+Tn1mZdMt8_1n^0#>Sf61g@wmf}R3%3};8{`ds?W_S
+z@Df0R<UeM`2sAepKY<cdX3&Yt%w)qVFAcYmHdXJ;)=V`_k8^3Gp~`zOw=;eAKEM>)
+z)JFZH%1k@5(fOz{pxm*o;|J;7zmC3hRk`YZA!-rDzuWtr?n@0ycZVudru*&Dcl%og
+zdZ$|kKiK+mYj|<5+beP?&Asj6g>9UGIl$zOd~z5;`w0sZdK-6xswSTG+~aOJ>BwWb
+zipqpaiu2Nt!3#ulLhlg7CmesuzX8Ls_PlcF_>9wxXQjN>kGXRFIrK@l15vwnxlxY&
+z#hf+J(I%MZa~H3TmX47TmQY63lD|#UL6(<kI{xgLLre0znrDW8j(BzM>MuCf?xlYQ
+zwe~pi(a_I^Up?8k;lb0d+aHUikt&M(cv}I^lQtrr+m@Mp0D`^IRViYHbyNcpJ$w1|
+z`S+F{dW=3KQf324Q_FH}nvKx+1T0N$gzc1C)NUfzFmg47(#HKt4Kibyf=t@jcUz0t
+zXR1|#<@w$#_kSzb9N%w0Hl_I=Os@TEj@A7E4rc)m*YHSlWC`^<WFZTZI__|p@{rL5
+K>~TUjgZ}_oA{$8n
+
+literal 0
+HcmV?d00001
+
+diff --git a/client3.py b/client3.py
+index f1771c3..c7c7135 100644
+--- a/client3.py
++++ b/client3.py
+@@ -35,14 +35,16 @@ def getDataPoint(quote):
+ 	stock = quote['stock']
+ 	bid_price = float(quote['top_bid']['price'])
+ 	ask_price = float(quote['top_ask']['price'])
+-	price = bid_price
++	price = (bid_price+ask_price)/2
+ 	return stock, bid_price, ask_price, price
+ 
+ def getRatio(price_a, price_b):
+ 	""" Get ratio of price_a and price_b """
+ 	""" ------------- Update this function ------------- """
+ 	""" Also create some unit tests for this function in client_test.py """
+-	return 1
++	if(price_b==0):
++		return
++	return price_a/price_b
+ 
+ # Main
+ if __name__ == "__main__":
+@@ -52,8 +54,10 @@ if __name__ == "__main__":
+ 		quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
+ 
+ 		""" ----------- Update to get the ratio --------------- """
++		prices={}
+ 		for quote in quotes:
+ 			stock, bid_price, ask_price, price = getDataPoint(quote)
++			prices[stock]=price
+ 			print ("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
+ 
+-		print ("Ratio %s" % getRatio(price, price))
++		print ("Ratio %s" % getRatio(prices['ABC'], prices['DEF']))
+diff --git a/client_test.py b/client_test.py
+index af2bf26..47d01fc 100644
+--- a/client_test.py
++++ b/client_test.py
+@@ -8,6 +8,8 @@ class ClientTest(unittest.TestCase):
+       {'top_ask': {'price': 121.68, 'size': 4}, 'timestamp': '2019-02-11 22:06:30.572453', 'top_bid': {'price': 117.87, 'size': 81}, 'id': '0.109974697771', 'stock': 'DEF'}
+     ]
+     """ ------------ Add the assertion below ------------ """
++    for quote in quotes:
++      self.assertEqual(getDataPoint(quote),(quote['stock'], quote['top_bid']['price'], quote['top_ask']['price'],(quote['top_bid']['price'] + quote['top_ask']['price'])/2))
+ 
+   def test_getDataPoint_calculatePriceBidGreaterThanAsk(self):
+     quotes = [
+@@ -15,6 +17,9 @@ class ClientTest(unittest.TestCase):
+       {'top_ask': {'price': 121.68, 'size': 4}, 'timestamp': '2019-02-11 22:06:30.572453', 'top_bid': {'price': 117.87, 'size': 81}, 'id': '0.109974697771', 'stock': 'DEF'}
+     ]
+     """ ------------ Add the assertion below ------------ """
++    for quote in quotes:
++      self.assertEqual(getDataPoint(quote),(quote['stock'], quote['top_bid']['price'], quote['top_ask']['price'],(quote['top_bid']['price'] + quote['top_ask']['price'])/2))
++
+ 
+ 
+   """ ------------ Add more unit tests ------------ """
+-- 
+2.26.2.windows.1
+
